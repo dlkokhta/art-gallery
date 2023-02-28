@@ -1,3 +1,4 @@
+
 * {
  margin: 0;
  padding: 0;
@@ -22,7 +23,9 @@
         align-items: center;
         
     }
-
+    .hero-img-tablet {
+        display: none;
+    }
     .hero-img-mobile {
         width: 100%;
         
@@ -98,6 +101,15 @@
         justify-content: center;
         align-items: center;
 
+    }
+    .main-img-1-tablet {
+          display: none;
+    }
+    .main-img-2-tablet {
+        display: none;
+    }
+    .main-img-3-tablet {
+        display: none;
     }
     
     .main-text-box h2 {
@@ -226,8 +238,212 @@
         margin-left: 20px;
     }
     
+ @media only screen and (min-width: 600px) {
+ 
 
 
+   .top-section {
+     
+     display: flex;
+     flex-direction: row; 
+    
+   }
+
+    .hero-img-mobile {
+        display: none;
+    }
+    .hero-img-tablet {
+       display: inline-block;
+       width: 100%;
+       
+    }
+    .top-section-box {  
+        margin-right: 40px;
+        margin-bottom: 0;
+        margin-top: 145px;
+        display: flex;
+        flex-direction:column ;   
+        gap: 48px;
+        z-index: 1;
+        margin-left: -50px;
+        
+    }
+    .logo-dark {
+        height: 130px;
+        width: 339px;
+        
+    }
+    .top-section-box p {
+        height: 112px;
+        width: 339px;
+        
+    }
+
+    /* middle section */
+
+
+    .middle-section {
+        
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            margin: 120px 0px 120px 0px;
+            gap: 11px;
+            
+            
+    }
+
+    .main-text-box {
+        display: flex;
+        flex-direction: column;
+        width: 221px;
+        order: -1;
+        margin-left: 39px;
+        gap: 24px;
+        
+    }
+
+    .main-text-box h2 {
+        height: 135px;
+        left: 0px;
+        top: 0px;
+        border-radius: nullpx;
+        font-family: Big Shoulders Display;
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 45px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #151515;
+        width: 223px;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-top: 0;
+
+    }
+    .main-text-box p {
+        height: 140px;
+        width: 223px;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left;
+        font-family: Outfit;
+        color: #444444;
+        margin: 0;
+        
+    }
+
+.img-3-and-black-box{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    
+}
+
+
+    .black-box {
+        height: 396px;
+        width: 280px;
+        
+       
+    }
+    .black-box h3 {
+        height: 90px;
+        width: 223px;
+        font-family: Big Shoulders Display;
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 45px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: White;
+        margin-bottom: 24px;
+        margin-left: 29px;
+    
+    }
+    .black-box p {
+        height: 112px;
+        width: 223px;
+        font-family: Outfit;
+        font-weight: 300;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: White;
+        font-size: 18px;
+        margin-left: 29px;
+    
+    }
+
+    .main-img-1 {
+        display: none;
+    }
+
+    .main-img-1-tablet {
+        display: inline-block;
+        margin-left: 58px;
+        margin-right: 40px;
+        gap: unset;
+    }
+
+    .main-img-2 {
+        display: none;
+    }
+
+    .main-img-2-tablet {
+        display: inline-block;
+        margin-left: 39px;
+    }
+    .main-img-3 {
+        display: none;
+    }
+
+    .main-img-3-tablet {
+        display: inline-block;
+        margin-right: 40px;
+        align-self: flex-start;
+     
+    }
+
+    
+
+
+    footer {
+        height: 216px;
+        width: 768px;
+        margin-top: 0;
+        display: flex;
+        flex-direction: row;
+       
+    }
+    footer h4 {
+        margin-left: 39px ;
+        margin-top:56px ;
+    }
+    footer p {
+        width: 281px;
+        left: 175px;
+        top: 0px;
+        border-radius: nullpx;
+        height: 104px;
+        margin-left: 65px;
+
+    }
+    .icons {
+        width: 100px;
+        height: 20px;
+        margin-top:56px ;
+        margin-right: 40px;
+        margin-left: 135px;
+    }
+  
+}
+
+
+   
 
 
 

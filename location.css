@@ -1,32 +1,35 @@
-body {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
+}
 
+body {
 
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Outfit', sans-serif;
 }
 
 .main-container-2 {
 
-    width: 375px;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
-
 .map-img {
-    height: 574px;
-    width: 375px;
 
+    width: 100%;
+
+}
+.map-img-tablet {
+    display: none;
 }
 
 /* button */
-
-
 
 button {
     position: absolute;
@@ -34,20 +37,20 @@ button {
     cursor: pointer;
     display: inline-block;
     background: linear-gradient(to left, #151515 80%, #d5966c 20%);
-    border:none;
-    width:260px;
-    height:72px;
+    border: none;
+    width: 260px;
+    height: 72px;
     font-family: 'Big Shoulders Display';
-    font-size:20px;
-    font-weight:800;
+    font-size: 20px;
+    font-weight: 800;
     padding: 0 10px 0 0;
-    color:#fff;
-    text-transform:uppercase;
+    color: #fff;
+    text-transform: uppercase;
     letter-spacing: 3.63636px;
     line-height: 1.2;
     text-align: centre;
     text-decoration: none;
-    
+
 }
 
 button:active {
@@ -63,23 +66,16 @@ button img {
     padding: 0 60px 0 0px;
 }
 
-
-
-
-
+/* middle section */
 
 main {
-    height: 450px;
-    width: 375px;
+    height: 493px;
     background-color: #151515;
     padding-top: 48px;
+
 }
 
-
-
 .main-header {
-
-
     font-family: Big Shoulders Display;
     font-size: 50px;
     font-weight: 900;
@@ -98,9 +94,6 @@ main h3 {
     font-weight: 900;
     color: #D5966C;
     margin-left: 16px;
-    
-
-
 
 }
 
@@ -115,7 +108,7 @@ main h3 {
     color: #FFFFFF;
     white-space: pre-line;
     margin: 20px 16px;
-    
+
 }
 
 .main-p2 {
@@ -129,18 +122,19 @@ main h3 {
     color: #FFFFFF;
     margin: 20px 16px auto;
 
-
-
 }
+
+/* bottom section */
 
 footer {
     height: 336px;
     width: 375px;
     background-color: #D5966C;
-    
+
 }
+
 footer img {
-    
+
     height: 40px;
     width: 110.0499038696289px;
     margin-top: 48px;
@@ -161,174 +155,149 @@ footer p {
     line-height: 26px;
     letter-spacing: 0px;
     text-align: left;
-    margin: 38px 32px auto; 
+    margin: 38px 32px auto;
 
 }
 
- 
+
 .icons {
     display: flex;
     flex-direction: row;
-    
+
     /* margin-top: 36px;
     margin-left: 32px; */
- }
- .facebook {
-   filter: invert(rgba(21, 21, 21, 1));
-   height: 20px;
-   width: 20px;
+}
+
+.facebook {
+    filter: invert(rgba(21, 21, 21, 1));
+    height: 20px;
+    width: 20px;
 
 
- }
+}
+
 .instagram {
     margin-left: 20px;
     height: 20px;
     width: 20px;
 
-
-    
 }
+
 .twitter {
-margin-left: 20px;
-height: 20px;
-width: 20px;
+    margin-left: 20px;
+    height: 20px;
+    width: 20px;
 
 
 }
 
+@media only screen and (min-width: 500px) {
 
-@media screen and (min-width: 768px)  {
+.map-img {
+    display: none;
+}
 
+.map-img-tablet {
+    display: inline-block;
+}
+ header button {
+    margin-left: 45px;
+ }
 
-
-.main-container-2 {
-
-        height: 1252px;
-        width: 768px;
-
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    .map-img {
-        display: none;
-    }
-
-    .map-img-tablet {
-        background-image: url(assets/tablet/image-map.png);
-        width: 768px;
-        height: 600px;
-        
-        
-        
-    }
-
-    button {
-        margin-left: 40px;
-    }
+ main {
+     width: 768px;
+     height: 436px;
+     display: flex;
+     padding-top: 0;
 
 
-
-    /* main section */
-
-    main {
-        height: 436px;
-         width: 768px;
-         padding-top: 0;
-        
-    }
-   .main-header {
-    height: 100px;
-    width: 223px;
-    margin-left: 40px;
-    margin-top: 88px;
-
-
-   }
-   .main-text {
+ }
+ .main-header {
+     left: 0px;
+     top: 0px;
+     border-radius: nullpx;
+     margin-left: 39px;
+     margin-top: 88px;
+     height: 100px;
+     width: 223px;
+ }
+ .main-text {
     display: flex;
     flex-direction: column;
-    margin-left: 330px;
-    margin-top: -148px;
+    gap: 20px;
+    margin-left: 68px;
+    margin-top: 88px;
+ }
+ .main-text h3 {
+    margin: 0;
+ }
+ .main-p1 {
+    margin: 0;
    
 
-}
-.main-text h3 {
-    height: 32px;
-width: 350px;
-font-family: Big Shoulders Display;
-font-size: 32px;
-font-weight: 900;
-line-height: 32px;
-letter-spacing: 0px;
-margin-bottom: 20px;
 
-}
-
-.main-p1 {
-    height: 84px;
-width: 398px;
-font-family: Outfit;
-font-size: 18px;
-font-weight: 300;
-line-height: 28px;
-letter-spacing: 0px;
-margin-bottom: 20px;
-margin-top:0px ;
-
-}
-.main-p2 {
-    height: 112px;
-width: 398px;
-font-family: Outfit;
-font-size: 18px;
-font-weight: 300;
-line-height: 28px;
-letter-spacing: 0px;
-margin-top: 0;
-margin-right:40px;
-
-
+ }
+ .main-p2 {
+     height: 112px;
+     width: 398px;
+     left: 0px;
+     top: 156px;
+     border-radius: nullpx;
+     margin: 0;
 }
 
 footer {
- height: 216px;
-width: 768px;
-display: flex;
-flex-direction: row;
-
+    height: 216px;
+    width: 768px;
+    display: flex;
+   
 
 }
 
 footer img {
-    margin-left: 40px;
-    margin-bottom: 58px;
+    
+    margin-left: 39px;
+    margin-top: 59px;
+    align-self: flex-start;
 }
 
 footer p {
     display: inline-block;
     height: 104px;
-width: 281px;
-font-family: Outfit;
-font-size: 16px;
-font-weight: 300;
-line-height: 26px;
-letter-spacing: 0px;
-text-align: left;
-margin-left: 65px;
-margin-top: 56px;
-margin-right: 0;
+    width: 281px;
+    border-radius: nullpx;
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0px;
+    margin-left: 65px;
+    margin-top: 56px;
+    margin-right: 135px;
+   
+    
+
 
 }
-.icons {
+ .icons {
+   margin-top: 56px;
+    
    
-  margin-left: 580px;
-  margin-right: 40px;
-  margin-top: -150px;
-}
+   
+ }
+
+ .facebook {
+    margin: 0;
+ }
+ .twitter {
+    margin-top: 0;
+ }
+ .instagram {
+    margin-top:0 ;
+ }
+
+
+
+
 
 }
