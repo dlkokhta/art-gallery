@@ -23,9 +23,24 @@
         align-items: center;
         
     }
+
     .hero-img-tablet {
         display: none;
     }
+
+    .hero-img-desktop {
+        display: none;
+    }
+
+    .top-section-black-box {
+        display: none;
+    }
+
+    .top-section-h1-desktop {
+        display: none;
+
+    }
+
     .hero-img-mobile {
         width: 100%;
         
@@ -38,11 +53,20 @@
         gap: 32px;
        
     }
-    .logo-dark {
+
+    .top-section h1 {
         height: 110px;
         width: 343px;
-
+        font-size: 60px;
+        font-weight: 900;
+        line-height: 55px;
+        letter-spacing: 0px;
+        text-align: left;
+        font-family: Big Shoulders Display;
+        white-space: pre-line;
+       
     }
+    
     .top-section p {
         height: 112px;
         width: 343px;
@@ -240,8 +264,6 @@
     
  @media only screen and (min-width: 600px) {
  
-
-
    .top-section {
      
      display: flex;
@@ -252,6 +274,19 @@
     .hero-img-mobile {
         display: none;
     }
+
+    .hero-img-desktop {
+        display: none;
+    }
+
+    .top-section-black-box {
+        display: none;
+    }
+
+    .top-section-h1-desktop {
+        display: none;
+    }
+
     .hero-img-tablet {
        display: inline-block;
        width: 100%;
@@ -268,11 +303,19 @@
         margin-left: -50px;
         
     }
-    .logo-dark {
-        height: 130px;
+    .top-section h1 {
         width: 339px;
+        height: 130px;
+        font-family: Big Shoulders Display;
+        font-size: 70px;
+        font-weight: 900;
+        line-height: 65px;
+        letter-spacing: 0px;
+        text-align: left;
+        white-space: pre-line;
         
     }
+
     .top-section-box p {
         height: 112px;
         width: 339px;
@@ -440,6 +483,98 @@
         margin-left: 135px;
     }
   
+}
+
+    
+
+@media only screen and (min-width: 900px) {
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   
+
+    .hero-img-tablet {
+
+        display: none;
+    }
+
+    .top-section-box h1 {
+       display: none;
+    }
+
+    .hero-img-desktop {
+        display: inline-block;
+
+    }
+
+    .top-section-black-box {
+        display: inline-block;
+        width: 450px;
+        height: 799px;
+        background-color: #151515;
+        
+    }
+    .top-section-h1-desktop {
+        
+        display: inline-block;
+        position: absolute;
+        
+        width: 514px;
+        left: 165px;
+        top: 190px;
+        border-radius: nullpx;
+        
+        font-family: Big Shoulders Display;
+        font-size: 96px;
+        font-weight: 900;
+        line-height: 88px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-left: -80px;
+        height: 176px;
+
+        
+
+
+
+        white-space: pre-line;
+        mix-blend-mode: difference;
+        color: #FFFFFF;
+        left: 21%;
+        top: 20%;
+
+    }
+
+    .top-section-box {
+        display: flex;
+        gap: 64px;
+        margin-top: 190px;
+    }
+
+    .top-section-box p {
+        width: 350px;
+        
+        font-family: Outfit;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #444444;
+        margin: 0;
+        height: 160px;
+
+
+    }
+
+    
+
+
+
 }
 
 

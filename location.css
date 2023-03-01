@@ -21,7 +21,7 @@ body {
 }
 
 .map-img {
-
+display: flex;
     width: 100%;
 
 }
@@ -246,6 +246,8 @@ footer p {
      margin: 0;
 }
 
+
+
 footer {
     height: 216px;
     width: 768px;
@@ -255,7 +257,8 @@ footer {
 }
 
 footer img {
-    
+   
+   
     margin-left: 39px;
     margin-top: 59px;
     align-self: flex-start;
