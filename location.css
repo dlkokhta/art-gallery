@@ -29,6 +29,10 @@ display: flex;
     display: none;
 }
 
+.map-img-desktop {
+    display: none;
+}
+
 /* button */
 
 button {
@@ -191,9 +195,13 @@ footer p {
 
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 768px) {
 
 .map-img {
+    display: none;
+}
+
+.map-img-desktop {
     display: none;
 }
 
@@ -298,6 +306,135 @@ footer p {
  .instagram {
     margin-top:0 ;
  }
+
+
+}
+
+@media only screen and (min-width:1000px) {
+    
+    .map-img-tablet {
+        display: none;
+    }
+
+    .map-img-desktop {
+        display: inline-block;
+    }
+
+    .button-desktop {
+        margin-left: 155px;
+      
+    }
+
+    main {
+
+        width: 1440px;
+        height: 548px;
+        
+    }
+
+    .main-header {
+        width: 350px;
+        font-family: Big Shoulders Display;
+        font-size: 70px;
+        font-weight: 900;
+        line-height: 70px;
+        letter-spacing: 0px;
+        text-align: left;
+        height: 140px;
+        margin-left: 165px;
+        margin-top: 105px;
+
+    }
+
+    .main-text {
+        gap: 24px ;
+        margin-left: 220px;
+        margin-top: 104px;
+    }
+
+    .main-text h3 {
+        width: 350px;
+        height: 36px;
+        
+    }
+
+    .main-p1 {
+        height: 96px;
+        width: 445px;
+        left: 0px;
+        top: 60px;
+        font-family: Outfit;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: left;
+        border-radius: nullpx;
+
+
+    }
+
+    .main-p2 {
+
+        width: 540px;
+        font-family: Outfit;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: left;
+        height: 128px;
+
+    }
+
+    footer {
+
+        width: 1440px;
+        height: 244px;
+
+    }
+        
+    footer img {
+
+        width: 159.57235717773438px;
+        height: 58px;
+        margin: 80px 140px 106px 165px;
+
+    }
+
+    footer p {
+
+        width: 430px;
+        height: 84px;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left;
+        font-family: Outfit;
+        margin-top: 80px;
+        margin-right: 280px;
+        margin-left: 0;
+    }
+
+    .icons {
+        display: flex;
+        gap: 20px;
+        height: 20px;
+       
+        margin-top: 80px;
+    }
+    .facebook {
+        margin: 0;
+    }
+
+    .instagram {
+        margin: 0;
+    }
+
+    .twitter {
+        margin: 0;
+    }
 
 
 
