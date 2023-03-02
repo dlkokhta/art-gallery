@@ -41,6 +41,22 @@
 
     }
 
+    .main-img-1-desktop {
+       display: none;
+    }
+
+    .main-img-2-desktop {
+        display: none;
+    }
+
+    .main-img-3-desktop {
+        display: none;
+    }
+
+    .main-text-box h3 {
+        display: none;
+    }
+
     .hero-img-mobile {
         width: 100%;
         
@@ -148,6 +164,7 @@
         width: 343px;
         text-transform: uppercase;
         margin: 25px auto 21px ;
+        white-space: pre-line;
     }
 
     .main-text-box p {
@@ -284,6 +301,22 @@
     }
 
     .top-section-h1-desktop {
+        display: none;
+    }
+
+    .main-img-1-desktop {
+        display: none;
+    }
+
+    .main-img-2-desktop {
+        display: none;
+    }
+
+    .main-img-3-desktop {
+        display: none;
+    }
+
+    .main-text-box h3 {
         display: none;
     }
 
@@ -490,11 +523,10 @@
 @media only screen and (min-width: 900px) {
 
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-   }
+    .main-container {
+        width: 1440px;
+        
+    }
    
 
     .hero-img-tablet {
@@ -534,7 +566,7 @@
         line-height: 88px;
         letter-spacing: 0px;
         text-align: left;
-        margin-left: -80px;
+        margin-left: -140px;
         height: 176px;
 
         
@@ -553,6 +585,8 @@
         display: flex;
         gap: 64px;
         margin-top: 190px;
+        margin-right: 164px;
+        margin-left: -65px;
     }
 
     .top-section-box p {
@@ -571,11 +605,166 @@
 
     }
 
+    /* middle section */
+
+    .middle-section {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 165px;
+        gap: 30px;
+        /* margin-right: 164px; */
+    }
+   
+    .main-text-box {
+        width: 320px;
+        margin-left: 0;
+        gap: 32px;
+        
+     }
+ 
+     .main-text-box h2 {
+ 
+         display: none;
+     }
+      
+ 
+     .main-text-box h3 {
+ 
+         display: inline-block;
+         width: 350px;
+         height: 120px;
+         font-family: Big Shoulders Display;
+         font-size: 60px;
+         font-weight: 900;
+         line-height: 60px;
+         letter-spacing: 0px;
+         text-align: left;
+         text-transform: uppercase;
+         
+ 
+ 
+     }
+ 
+     .main-text-box p {
+ 
+         width: 350px;
+         font-family: Outfit;
+         font-size: 22px;
+         font-weight: 300;
+         line-height: 32px;
+         letter-spacing: 0px;
+         text-align: left;
+         height: 128px;
+         color: #444444;
+         
+         
+     }
+
+    .main-img-1-tablet {
+        display: none;
+    }
+
+    .main-img-2-tablet {
+        display: none;
+    }
+
+    .main-img-3-tablet {
+        display: none;
+    }
+
+    .main-img-1-desktop {
+        display: inline-block;
+        margin-right: 165px;
+        margin-left: 125px;
+    }
+
+    .main-img-2-desktop {
+        display: inline-block;
+    }
+    
+    .main-img-3-desktop {
+        display: inline-block;
+    }
+
+    .black-box {
+        width: 445px;
+        height: 377px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 32px;
+     
+      
+    }
+
+    .black-box h3 {
+        width: 350px;
+        text-transform: uppercase ;
+        margin-top: 64px;
+        margin-left: 48px;
+        
+       
+    }
+
+    .black-box p {
+        width: 350px;
+        font-family: Outfit;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: left;
+        height: 96px;
+        margin: 0;
+        margin-left: 48px;
+        
+        
+        
+        
+    }
+
+    .img-3-and-black-box {
+      gap: 30px;
+
+    }
+
+
     
 
 
+    footer {
+        width: 1440px;
+        
+
+    }
+     footer h4 {
+         width: 159.57235717773438px;
+         height: 58px;
+         margin: 80px 140px auto 165px;
+
+     }
+
+     footer p {
+         width: 430px;
+         height: 84px;
+         font-family: Outfit;
+         font-size: 18px;
+         font-weight: 300;
+         color: #FFFFFF;
+         margin-left: 0;
+         margin-top: 70px;
+         margin-right: 0;
+     }
+
+     .icons {
+        margin-left: 280px;
+        margin-top: 80px;
+     }
 
 }
+
+
+
 
 
    
